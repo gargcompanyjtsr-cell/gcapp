@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GC Accounting App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>GC Accounting App</h1>
+    </header>
+
+    <section id="company-section">
+        <h2>Create Company</h2>
+        <form id="company-form">
+            <input type="text" id="companyName" placeholder="Company Name" required>
+            <input type="text" id="companyAddress" placeholder="Address" required>
+            <input type="text" id="companyGST" placeholder="GST Number" required>
+            <input type="text" id="companyMobile" placeholder="Mobile Number" required>
+            <button type="submit">Create Company</button>
+        </form>
+    </section>
+
+    <section id="master-section">
+        <h2>Master</h2>
+        <button id="createAccountBtn">Create Account</button>
+        <button id="createJeansBtn">Create Jeans</button>
+        <button id="createPackingBtn">Create Packing</button>
+    </section>
+
+    <section id="voucher-section">
+        <h2>Voucher</h2>
+        <button id="cashPaymentBtn">Cash Payment Received</button>
+        <button id="bankCashJournalBtn">Bank/Cash/Journal Entry</button>
+        <button id="journalEntryBtn">Journal Entry</button>
+    </section>
+
+    <section id="inventory-section">
+        <h2>Inventory</h2>
+        <button id="purchaseSaleBtn">Purchase & Sale Entry</button>
+        <button id="salerSlipBtn">Saler Slip</button>
+        <button id="auctionBillBtn">Auction Bill</button>
+    </section>
+
+    <section id="report-section">
+        <h2>Reports</h2>
+        <button id="ledgerReportBtn">Ledger Report</button>
+        <button id="stockReportBtn">Stock Report</button>
+        <button id="gstReportBtn">GST Return Report</button>
+    </section>
+
+    <section id="books-section">
+        <h2>Books</h2>
+        <button id="dayBookBtn">Day Book</button>
+        <button id="cashBookBtn">Cash Book</button>
+        <button id="journalBookBtn">Journal Book</button>
+        <button id="balanceSheetBtn">Balance Sheet</button>
+        <button id="tradingAccountBtn">Trading Account</button>
+        <button id="profitLossBtn">Profit & Loss</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+  </html>
